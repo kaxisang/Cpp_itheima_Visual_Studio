@@ -146,6 +146,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\06_While_Statement.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
