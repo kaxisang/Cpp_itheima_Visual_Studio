@@ -150,6 +150,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\07_Guess_Number.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

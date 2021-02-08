@@ -90,5 +90,8 @@
     <ClCompile Include="code\04 Flow Structure\06_While_Statement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\07_Guess_Number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
