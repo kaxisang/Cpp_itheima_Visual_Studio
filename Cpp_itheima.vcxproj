@@ -154,6 +154,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\08_Do_While_Statement.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\09_Narcissistic_Number.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\10_For_Statement.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
