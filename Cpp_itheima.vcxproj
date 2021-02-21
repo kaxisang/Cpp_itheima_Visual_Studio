@@ -166,6 +166,26 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\11_Knock_On_The_Table.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\12_Nested_Loop.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\13_Multiplication_Table.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\14_Break_Statement.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\04 Flow Structure\15_Continue_Statement.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
