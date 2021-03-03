@@ -120,5 +120,8 @@
     <ClCompile Include="code\04 Flow Structure\16_Goto_Statement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="code\05 Array\01_Definition_Of_One_Dimensional_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

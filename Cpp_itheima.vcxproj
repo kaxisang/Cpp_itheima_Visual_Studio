@@ -190,6 +190,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\05 Array\01_Definition_Of_One_Dimensional_Array.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
