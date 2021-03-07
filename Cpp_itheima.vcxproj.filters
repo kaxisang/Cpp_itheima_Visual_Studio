@@ -126,5 +126,14 @@
     <ClCompile Include="code\05 Array\02_Name_Of_One_Dimensional_Array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="code\05 Array\03_Five_Piglets_Were_Weighed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\05 Array\04_Reverse_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\05 Array\05_Bubble_Sort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
