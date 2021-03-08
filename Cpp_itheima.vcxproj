@@ -210,6 +210,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="code\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\05 Array\07_Name_Of_Two_Dimensional_Array.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -135,5 +135,11 @@
     <ClCompile Include="code\05 Array\05_Bubble_Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="code\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code\05 Array\07_Name_Of_Two_Dimensional_Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
