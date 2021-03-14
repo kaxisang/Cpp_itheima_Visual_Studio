@@ -20,29 +20,38 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{27817054-4299-4AA8-9459-9DEF152BA503}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{8aa8c33b-f0e9-43b0-962c-29bc1d7b856e}</ProjectGuid>
+    <RootNamespace>Cppitheima</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Cpp_itheima_First</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -66,158 +75,127 @@
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <TargetMachine>MachineX86</TargetMachine>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <TargetMachine>MachineX86</TargetMachine>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="code\01 hello world\01_Hello_World.cpp" />
-    <ClCompile Include="code\01 hello world\02_Comment.cpp" />
-    <ClCompile Include="code\01 hello world\03_Variable.cpp" />
-    <ClCompile Include="code\01 hello world\04_Constants.cpp" />
-    <ClCompile Include="code\01 hello world\05_Keyword.cpp" />
-    <ClCompile Include="code\01 hello world\06_Identifiers.cpp" />
-    <ClCompile Include="code\02 types\01_Integer.cpp" />
-    <ClCompile Include="code\02 types\02_Sizeof.cpp" />
-    <ClCompile Include="code\02 types\03_Float.cpp" />
-    <ClCompile Include="code\02 types\04_Character.cpp" />
-    <ClCompile Include="code\02 types\05_Escape_Character.cpp" />
-    <ClCompile Include="code\02 types\06_String.cpp" />
-    <ClCompile Include="code\02 types\07_Bool.cpp" />
-    <ClCompile Include="code\02 types\08_Data_Input.cpp" />
-    <ClCompile Include="code\03 operator\01_Operator.cpp" />
-    <ClCompile Include="code\03 operator\02_Arithmetic_Operator.cpp" />
-    <ClCompile Include="code\03 Operator\03_Assignment_Operator.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\03 Operator\04_Relational_Operator.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\03 Operator\05_Logical_Operator.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\01_Flow_Structure.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\02_if_statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\03_Three_Piglets_Were_Weighed.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\04_Ternary_Operator.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\05_Switch_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\06_While_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\07_Guess_Number.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\08_Do_While_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\09_Narcissistic_Number.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\10_For_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\11_Knock_On_The_Table.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\12_Nested_Loop.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\13_Multiplication_Table.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\14_Break_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\15_Continue_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\04 Flow Structure\16_Goto_Statement.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\01_Definition_Of_One_Dimensional_Array.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\02_Name_Of_One_Dimensional_Array.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\03_Five_Piglets_Were_Weighed.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\04_Reverse_Array.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\05_Bubble_Sort.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\05 Array\07_Name_Of_Two_Dimensional_Array.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="code\01 Hello World\01_Hello_World.cpp" />
+    <ClCompile Include="code\01 Hello World\02_Comment.cpp" />
+    <ClCompile Include="code\01 Hello World\03_Variable.cpp" />
+    <ClCompile Include="code\01 Hello World\04_Constants.cpp" />
+    <ClCompile Include="code\01 Hello World\05_Keyword.cpp" />
+    <ClCompile Include="code\01 Hello World\06_Identifiers.cpp" />
+    <ClCompile Include="code\02 Types\01_Integer.cpp" />
+    <ClCompile Include="code\02 Types\02_Sizeof.cpp" />
+    <ClCompile Include="code\02 Types\03_Float.cpp" />
+    <ClCompile Include="code\02 Types\04_Character.cpp" />
+    <ClCompile Include="code\02 Types\05_Escape_Character.cpp" />
+    <ClCompile Include="code\02 Types\06_String.cpp" />
+    <ClCompile Include="code\02 Types\07_Bool.cpp" />
+    <ClCompile Include="code\02 Types\08_Data_Input.cpp" />
+    <ClCompile Include="code\03 Operator\01_Operator.cpp" />
+    <ClCompile Include="code\03 Operator\02_Arithmetic_Operator.cpp" />
+    <ClCompile Include="code\03 Operator\03_Assignment_Operator.cpp" />
+    <ClCompile Include="code\03 Operator\04_Relational_Operator.cpp" />
+    <ClCompile Include="code\03 Operator\05_Logical_Operator.cpp" />
+    <ClCompile Include="code\04 Flow Structure\01_Flow_Structure.cpp" />
+    <ClCompile Include="code\04 Flow Structure\02_If_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\03_Three_Piglets_Were_Weighed.cpp" />
+    <ClCompile Include="code\04 Flow Structure\04_Ternary_Operator.cpp" />
+    <ClCompile Include="code\04 Flow Structure\05_Switch_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\06_While_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\07_Guess_Number.cpp" />
+    <ClCompile Include="code\04 Flow Structure\08_Do_While_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\09_Narcissistic_Number.cpp" />
+    <ClCompile Include="code\04 Flow Structure\10_For_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\11_Knock_On_The_Table.cpp" />
+    <ClCompile Include="code\04 Flow Structure\12_Nested_Loop.cpp" />
+    <ClCompile Include="code\04 Flow Structure\13_Multiplication_Table.cpp" />
+    <ClCompile Include="code\04 Flow Structure\14_Break_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\15_Continue_Statement.cpp" />
+    <ClCompile Include="code\04 Flow Structure\16_Goto_Statement.cpp" />
+    <ClCompile Include="code\05 Array\01_Definition_Of_One_Dimensional_Array.cpp" />
+    <ClCompile Include="code\05 Array\02_Name_Of_One_Dimensional_Array.cpp" />
+    <ClCompile Include="code\05 Array\03_Five_Piglets_Were_Weighed.cpp" />
+    <ClCompile Include="code\05 Array\04_Reverse_Array.cpp" />
+    <ClCompile Include="code\05 Array\05_Bubble_Sort.cpp" />
+    <ClCompile Include="code\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp" />
+    <ClCompile Include="code\05 Array\07_Name_Of_Two_Dimensional_Array.cpp" />
+    <ClCompile Include="code\05 Array\08_Examination_Result_Statistics.cpp" />
+    <ClCompile Include="code\06 Function\01_Function_Defintion.cpp" />
+    <ClCompile Include="code\06 Function\02_Function_Call.cpp" />
+    <ClCompile Include="code\06 Function\03_Value_Transfer.cpp" />
+    <ClCompile Include="code\06 Function\04_Common_Style_Of_Function.cpp" />
+    <ClCompile Include="code\06 Function\05_Function_Declaration.cpp" />
+    <ClCompile Include="code\06 Function\06_Sub_File_Writing_Of_Function.cpp" />
+    <ClCompile Include="code\06 Function\06_Sub_File_Writing_Of_Function_Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="code\04 Flow Structure\Guess_Number.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\06 Function\06_Sub_File_Writing_Of_Function_Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

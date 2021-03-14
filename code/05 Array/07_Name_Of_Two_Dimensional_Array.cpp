@@ -27,7 +27,7 @@ int main() {
     cout << "This two dimensional array has " << sizeof(arr) / sizeof(arr[0][0]) << " elements" << endl;
 
     cout << "The first address of two dimensional array: " << (int)arr << endl;
-    cout << "The first address of the first row of two dimensional array: " << (int)arr[0] << endl;
+    cout << "The first address of the first row of two dimensional array: " << (int)arr[0] << endl; 
 
     return 0;
 }
