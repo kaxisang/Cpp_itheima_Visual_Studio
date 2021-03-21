@@ -190,34 +190,15 @@
     <ClCompile Include="code\06 Function\05_Function_Declaration.cpp" />
     <ClCompile Include="code\06 Function\06_Sub_File_Writing_Of_Function.cpp" />
     <ClCompile Include="code\06 Function\06_Sub_File_Writing_Of_Function_Source.cpp" />
-    <ClCompile Include="code\07 指针\01_指针的定义和使用.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\02_指针所占内存空间.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\03_空指针和野指针.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\04_Const修饰指针.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\05_指针和数组.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\06_指针和函数.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="code\07 指针\07_冒泡排序.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="code\07 指针\01_指针的定义和使用.cpp" />
+    <ClCompile Include="code\07 指针\02_指针所占内存空间.cpp" />
+    <ClCompile Include="code\07 指针\03_空指针和野指针.cpp" />
+    <ClCompile Include="code\07 指针\04_Const修饰指针.cpp" />
+    <ClCompile Include="code\07 指针\05_指针和数组.cpp" />
+    <ClCompile Include="code\07 指针\06_指针和函数.cpp" />
+    <ClCompile Include="code\07 指针\07_冒泡排序.cpp" />
+    <ClCompile Include="code\08 结构体\01_结构体的定义和使用.cpp" />
+    <ClCompile Include="code\08 结构体\02_结构体数组.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="code\04 Flow Structure\Guess_Number.png" />
