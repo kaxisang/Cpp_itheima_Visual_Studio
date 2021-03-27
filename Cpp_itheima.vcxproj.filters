@@ -216,6 +216,12 @@
     <ClCompile Include="code\08 结构体\02_结构体数组.cpp">
       <Filter>Source Files\08 结构体</Filter>
     </ClCompile>
+    <ClCompile Include="code\08 结构体\03_结构体指针.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="code\08 结构体\04_结构体嵌套结构体.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="code\04 Flow Structure\Guess_Number.png">
