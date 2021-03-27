@@ -201,6 +201,22 @@
     <ClCompile Include="code\08 结构体\02_结构体数组.cpp" />
     <ClCompile Include="code\08 结构体\03_结构体指针.cpp" />
     <ClCompile Include="code\08 结构体\04_结构体嵌套结构体.cpp" />
+    <ClCompile Include="code\08 结构体\05_结构体作为函数参数.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\08 结构体\06_结构体中的const.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\08 结构体\07_结构体案例1.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="code\08 结构体\08_结构体案例2.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="code\04 Flow Structure\Guess_Number.png" />

@@ -27,7 +27,7 @@ struct teacher {
 int main() {
     struct student s = { "张三", 10 };
     struct teacher t = { "李四", 20, s };
-    cout << "老师的姓名：" << t.name << "\t老师的年龄："
+    cout << "老师的姓名：" << t.name << "\t老师的年龄：" << t.age << "\t学生姓名：" << t.s.name << "\t学生的年龄：" << t.s.age << endl;
 
     return 0;
 }
