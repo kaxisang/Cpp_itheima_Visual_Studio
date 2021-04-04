@@ -24,7 +24,7 @@
     <ProjectGuid>{8aa8c33b-f0e9-43b0-962c-29bc1d7b856e}</ProjectGuid>
     <RootNamespace>Cppitheima</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Cpp_itheima_First</ProjectName>
+    <ProjectName>01 C++第一阶段</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{30DF0008-A4F5-46EC-9085-DE8B69CA0C8E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="代码\06 function\06_Sub_File_Writing_Of_Function_Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="代码\01 Hello World\01_Hello_World.cpp" />
+    <ClCompile Include="代码\01 Hello World\02_Comment.cpp" />
+    <ClCompile Include="代码\01 Hello World\03_Variable.cpp" />
+    <ClCompile Include="代码\01 Hello World\04_Constants.cpp" />
+    <ClCompile Include="代码\01 Hello World\05_Keyword.cpp" />
+    <ClCompile Include="代码\01 Hello World\06_Identifiers.cpp" />
+    <ClCompile Include="代码\02 Types\01_Integer.cpp" />
+    <ClCompile Include="代码\02 Types\02_Sizeof.cpp" />
+    <ClCompile Include="代码\02 Types\03_Float.cpp" />
+    <ClCompile Include="代码\02 Types\04_Character.cpp" />
+    <ClCompile Include="代码\02 Types\05_Escape_Character.cpp" />
+    <ClCompile Include="代码\02 Types\06_String.cpp" />
+    <ClCompile Include="代码\02 Types\07_Bool.cpp" />
+    <ClCompile Include="代码\02 Types\08_Data_Input.cpp" />
+    <ClCompile Include="代码\03 Operator\01_Operator.cpp" />
+    <ClCompile Include="代码\03 Operator\02_Arithmetic_Operator.cpp" />
+    <ClCompile Include="代码\03 Operator\03_Assignment_Operator.cpp" />
+    <ClCompile Include="代码\03 Operator\04_Relational_Operator.cpp" />
+    <ClCompile Include="代码\03 Operator\05_Logical_Operator.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\01_Flow_Structure.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\02_If_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\03_Three_Piglets_Were_Weighed.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\04_Ternary_Operator.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\05_Switch_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\06_While_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\07_Guess_Number.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\08_Do_While_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\09_Narcissistic_Number.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\10_For_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\11_Knock_On_The_Table.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\12_Nested_Loop.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\13_Multiplication_Table.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\14_Break_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\15_Continue_Statement.cpp" />
+    <ClCompile Include="代码\04 Flow Structure\16_Goto_Statement.cpp" />
+    <ClCompile Include="代码\05 Array\01_Definition_Of_One_Dimensional_Array.cpp" />
+    <ClCompile Include="代码\05 Array\02_Name_Of_One_Dimensional_Array.cpp" />
+    <ClCompile Include="代码\05 Array\03_Five_Piglets_Were_Weighed.cpp" />
+    <ClCompile Include="代码\05 Array\04_Reverse_Array.cpp" />
+    <ClCompile Include="代码\05 Array\05_Bubble_Sort.cpp" />
+    <ClCompile Include="代码\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp" />
+    <ClCompile Include="代码\05 Array\07_Name_Of_Two_Dimensional_Array.cpp" />
+    <ClCompile Include="代码\05 Array\08_Examination_Result_Statistics.cpp" />
+    <ClCompile Include="代码\06 Function\01_Function_Defintion.cpp" />
+    <ClCompile Include="代码\06 Function\02_Function_Call.cpp" />
+    <ClCompile Include="代码\06 Function\03_Value_Transfer.cpp" />
+    <ClCompile Include="代码\06 Function\04_Common_Style_Of_Function.cpp" />
+    <ClCompile Include="代码\06 Function\05_Function_Declaration.cpp" />
+    <ClCompile Include="代码\06 Function\06_Sub_File_Writing_Of_Function.cpp" />
+    <ClCompile Include="代码\06 Function\06_Sub_File_Writing_Of_Function_Source.cpp" />
+    <ClCompile Include="代码\07 指针\01_指针的定义和使用.cpp" />
+    <ClCompile Include="代码\07 指针\02_指针所占内存空间.cpp" />
+    <ClCompile Include="代码\07 指针\03_空指针和野指针.cpp" />
+    <ClCompile Include="代码\07 指针\04_Const修饰指针.cpp" />
+    <ClCompile Include="代码\07 指针\05_指针和数组.cpp" />
+    <ClCompile Include="代码\07 指针\06_指针和函数.cpp" />
+    <ClCompile Include="代码\07 指针\07_冒泡排序.cpp" />
+    <ClCompile Include="代码\08 结构体\01_结构体的定义和使用.cpp" />
+    <ClCompile Include="代码\08 结构体\02_结构体数组.cpp" />
+    <ClCompile Include="代码\08 结构体\03_结构体指针.cpp" />
+    <ClCompile Include="代码\08 结构体\04_结构体嵌套结构体.cpp" />
+    <ClCompile Include="代码\08 结构体\05_结构体作为函数参数.cpp" />
+    <ClCompile Include="代码\08 结构体\06_结构体中的const.cpp" />
+    <ClCompile Include="代码\08 结构体\07_结构体案例1.cpp" />
+    <ClCompile Include="代码\08 结构体\08_结构体案例2.cpp" />
+    <ClCompile Include="代码\C++模板.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="代码\04 Flow Structure\Guess_Number.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

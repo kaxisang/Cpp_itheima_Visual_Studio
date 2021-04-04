@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01 Hello World">
+      <UniqueIdentifier>{68c7c220-89db-4543-9fd6-fd0bff33773c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02 Types">
+      <UniqueIdentifier>{0e6e079d-099a-4c41-a847-f19e06356467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03 Operator">
+      <UniqueIdentifier>{a4ad7caa-49bc-4dfa-bdd4-d68b14e677da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04 Flow Structure">
+      <UniqueIdentifier>{722d03e0-97bb-4925-8936-a66ce0dc4b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05 Array">
+      <UniqueIdentifier>{06064a84-19ca-454d-9a26-ad8ac33476bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\06 Function">
+      <UniqueIdentifier>{6e5a4d7c-dfde-4601-9e4b-92fe258a1aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\07 指针">
+      <UniqueIdentifier>{d980c576-79cf-41f1-af57-ec9d3b4d0b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\08 结构体">
+      <UniqueIdentifier>{91731ad0-cc25-4d2b-83e2-6ef51ab90012}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="代码\06 function\06_Sub_File_Writing_Of_Function_Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="代码\01 Hello World\01_Hello_World.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 Hello World\02_Comment.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 Hello World\03_Variable.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 Hello World\04_Constants.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 Hello World\05_Keyword.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 Hello World\06_Identifiers.cpp">
+      <Filter>Source Files\01 Hello World</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\01_Integer.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\02_Sizeof.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\03_Float.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\04_Character.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\05_Escape_Character.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\06_String.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\07_Bool.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 Types\08_Data_Input.cpp">
+      <Filter>Source Files\02 Types</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\03 Operator\01_Operator.cpp">
+      <Filter>Source Files\03 Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\03 Operator\02_Arithmetic_Operator.cpp">
+      <Filter>Source Files\03 Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\03 Operator\03_Assignment_Operator.cpp">
+      <Filter>Source Files\03 Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\03 Operator\04_Relational_Operator.cpp">
+      <Filter>Source Files\03 Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\03 Operator\05_Logical_Operator.cpp">
+      <Filter>Source Files\03 Operator</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\01_Flow_Structure.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\02_If_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\03_Three_Piglets_Were_Weighed.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\04_Ternary_Operator.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\05_Switch_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\06_While_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\07_Guess_Number.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\08_Do_While_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\09_Narcissistic_Number.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\10_For_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\11_Knock_On_The_Table.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\12_Nested_Loop.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\13_Multiplication_Table.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\14_Break_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\15_Continue_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 Flow Structure\16_Goto_Statement.cpp">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\01_Definition_Of_One_Dimensional_Array.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\02_Name_Of_One_Dimensional_Array.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\03_Five_Piglets_Were_Weighed.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\04_Reverse_Array.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\05_Bubble_Sort.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\06_Definition_Of_Two_Dimensional_Array.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\07_Name_Of_Two_Dimensional_Array.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\05 Array\08_Examination_Result_Statistics.cpp">
+      <Filter>Source Files\05 Array</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\01_Function_Defintion.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\02_Function_Call.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\03_Value_Transfer.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\04_Common_Style_Of_Function.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\05_Function_Declaration.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\06_Sub_File_Writing_Of_Function.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\06 Function\06_Sub_File_Writing_Of_Function_Source.cpp">
+      <Filter>Source Files\06 Function</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\01_指针的定义和使用.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\02_指针所占内存空间.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\03_空指针和野指针.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\04_Const修饰指针.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\05_指针和数组.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\06_指针和函数.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\07 指针\07_冒泡排序.cpp">
+      <Filter>Source Files\07 指针</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\01_结构体的定义和使用.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\02_结构体数组.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\03_结构体指针.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\04_结构体嵌套结构体.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\05_结构体作为函数参数.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\06_结构体中的const.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\07_结构体案例1.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\08 结构体\08_结构体案例2.cpp">
+      <Filter>Source Files\08 结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\C++模板.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="代码\04 Flow Structure\Guess_Number.png">
+      <Filter>Source Files\04 Flow Structure</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
