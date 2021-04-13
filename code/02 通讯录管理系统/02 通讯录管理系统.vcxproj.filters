@@ -15,8 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="通讯录管理系统.md">
+    <ClCompile Include="代码\通讯录管理系统.cpp">
       <Filter>资源文件</Filter>
-    </Text>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="代码\通讯录管理系统.md">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
