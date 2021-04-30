@@ -16,6 +16,9 @@
     <Filter Include="源文件\01 内存分区模型">
       <UniqueIdentifier>{7f2c2bd0-1197-45c0-bf69-b638ae4691f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\02 引用">
+      <UniqueIdentifier>{5d661c65-aa16-4efd-a0dd-3c237c727136}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="代码\01 内存分区模型\01_内存分区模型.cpp">
@@ -25,7 +28,22 @@
       <Filter>源文件\01 内存分区模型</Filter>
     </ClCompile>
     <ClCompile Include="代码\01 内存分区模型\03_全局区.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\01 内存分区模型</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\04_栈区.cpp">
+      <Filter>源文件\01 内存分区模型</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\05_堆区.cpp">
+      <Filter>源文件\01 内存分区模型</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\06_new操作符.cpp">
+      <Filter>源文件\01 内存分区模型</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 引用\01_引用.cpp">
+      <Filter>源文件\02 引用</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\02 引用\02_引用作函数参数.cpp">
+      <Filter>源文件\02 引用</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -25,6 +25,26 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\04_栈区.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\06_new操作符.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\01 内存分区模型\05_堆区.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\02 引用\01_引用.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\02 引用\02_引用作函数参数.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
