@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -25,26 +25,12 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="代码\01 内存分区模型\04_栈区.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="代码\01 内存分区模型\06_new操作符.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="代码\01 内存分区模型\05_堆区.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="代码\02 引用\01_引用.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="代码\02 引用\02_引用作函数参数.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="代码\02 引用\01_引用.cpp" />
+    <ClCompile Include="代码\02 引用\02_引用作函数参数.cpp" />
+    <ClCompile Include="代码\02 引用\03_引用作函数返回值.cpp" />
+    <ClCompile Include="代码\02 引用\04_引用的本质.cpp" />
+    <ClCompile Include="代码\02 引用\05_常量引用.cpp" />
+    <ClCompile Include="代码\03 函数提高\01_函数默认参数.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
