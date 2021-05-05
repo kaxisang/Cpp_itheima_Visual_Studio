@@ -39,6 +39,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\01_类和对象.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\02_封装的意义.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\03_学生类.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -22,6 +22,9 @@
     <Filter Include="源文件\03 函数提高">
       <UniqueIdentifier>{6e25a4c1-f505-44bb-ad78-155ff4747553}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\04 类和对象">
+      <UniqueIdentifier>{02226a31-b434-4235-b6b5-0a6f3be30516}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="代码\01 内存分区模型\01_内存分区模型.cpp">
@@ -56,6 +59,15 @@
     </ClCompile>
     <ClCompile Include="代码\03 函数提高\03_函数重载.cpp">
       <Filter>源文件\03 函数提高</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\01_类和对象.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\02_封装的意义.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\03_学生类.cpp">
+      <Filter>源文件\04 类和对象</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
