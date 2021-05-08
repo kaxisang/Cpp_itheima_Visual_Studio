@@ -51,6 +51,14 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\04_访问权限.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\05_struct和class的区别.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
