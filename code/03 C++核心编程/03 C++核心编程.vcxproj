@@ -59,6 +59,18 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\06_成员属性设置为私有.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\07_立方体类.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\08_点和圆类.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

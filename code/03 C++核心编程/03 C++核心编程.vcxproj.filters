@@ -75,5 +75,14 @@
     <ClCompile Include="代码\04 类和对象\05_struct和class的区别.cpp">
       <Filter>源文件\04 类和对象</Filter>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\06_成员属性设置为私有.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\07_立方体类.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\08_点和圆类.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
