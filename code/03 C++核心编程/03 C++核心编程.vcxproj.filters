@@ -84,5 +84,17 @@
     <ClCompile Include="代码\04 类和对象\08_点和圆类.cpp">
       <Filter>源文件\04 类和对象</Filter>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\09_对象的初始化和清理.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\10_构造函数和析构函数.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\11_构造函数的分类及调用.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\12_拷贝构造函数调用时机.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
