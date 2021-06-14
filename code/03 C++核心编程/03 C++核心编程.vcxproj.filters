@@ -96,5 +96,17 @@
     <ClCompile Include="代码\04 类和对象\12_拷贝构造函数调用时机.cpp">
       <Filter>源文件\04 类和对象</Filter>
     </ClCompile>
+    <ClCompile Include="代码\04 类和对象\13_构造函数调用规则.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\14_深拷贝与浅拷贝.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\15_初始化列表.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
+    <ClCompile Include="代码\04 类和对象\16_类对象作为类成员.cpp">
+      <Filter>源文件\04 类和对象</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
